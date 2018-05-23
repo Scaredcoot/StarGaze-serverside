@@ -212,7 +212,7 @@ public class SMHIDataReader {
 		}
 		if (temp < 20.0 && rainfall == 0 && cloudiness < 2 && lighReflection < 3)
 		{
-			grade = "Ok";
+			grade = "Okay";
 			return grade;
 		}
 		else {grade = "Bad";
